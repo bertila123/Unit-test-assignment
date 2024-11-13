@@ -1,12 +1,12 @@
 # app.pys
-from flask import Flask, jsonify
+from flask import Flask
 
 app = Flask(__name__)
 
 
 @app.route('/')
 def home():
-    return jsonify(message="Hello level 400 FET, Quality Assurance!")
+    return "Hello level 400 FET, Quality Assurance!"
 
 
 if __name__ == '__main__':

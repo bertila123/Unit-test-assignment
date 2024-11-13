@@ -1,0 +1,35 @@
+# Ignore all Python virtual environments
+my-venv/
+venv/
+env/
+.venv/
+
+# Ignore Python virtual environments
+my_venv/
+
+
+# Ignore Python dependencies
+__pycache__/
+*.py[cod]
+
+# Ignore site-packages in virtual environments (packages installed in venv)
+my-venv/Lib/site-packages/
+
+# Ignore any package-related configurations and caches
+*.egg-info/
+*.egg
+*.whl
+Pipfile
+Pipfile.lock
+poetry.lock
+pyproject.toml
+
+# Optional: Ignore OS and editor-specific files (if not already included)
+# Windows system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Visual Studio Code and other editor configurations
+.vscode/
+.idea/
