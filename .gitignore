@@ -1,11 +1,11 @@
 # Ignore all Python virtual environments
-my-venv/
+my-venv
 venv/
 env/
 .venv/
 
 # Ignore Python virtual environments
-my_venv/
+my_venv
 
 
 # Ignore Python dependencies
