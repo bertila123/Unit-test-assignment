@@ -1,8 +1,8 @@
 # Ignore all Python virtual environments
 my-venv
-venv/
-env/
-.venv/
+venv
+env
+.venv
 
 # Ignore Python virtual environments
 my_venv
